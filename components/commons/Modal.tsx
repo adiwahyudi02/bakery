@@ -25,7 +25,7 @@ const Modal = ({ isOpen, onClose, children, additionalClass }: ModalProps) => {
           onClick={handleBackdropClick}
         ></div>
         <div
-          className={`z-20 bg-white p-4 max-w-md mx-auto rounded shadow-lg relative min-w-96 ${additionalClass}`}
+          className={`z-20 bg-white p-4 mx-auto rounded shadow-lg relative w-full sm:max-w-96 ${additionalClass}`}
         >
           <button
             className="absolute top-0 right-0 p-2 text-gray-500 hover:text-gray-700"
